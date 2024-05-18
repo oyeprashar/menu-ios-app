@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D1F787062BF7DDD100513D3E /* menuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F787052BF7DDD100513D3E /* menuApp.swift */; };
-		D1F787082BF7DDD100513D3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F787072BF7DDD100513D3E /* ContentView.swift */; };
+		D1F787082BF7DDD100513D3E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F787072BF7DDD100513D3E /* MenuView.swift */; };
 		D1F7870A2BF7DDD200513D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F787092BF7DDD200513D3E /* Assets.xcassets */; };
 		D1F7870D2BF7DDD200513D3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F7870C2BF7DDD200513D3E /* Preview Assets.xcassets */; };
 		D1F787172BF7DDD200513D3E /* menuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F787162BF7DDD200513D3E /* menuTests.swift */; };
 		D1F787212BF7DDD200513D3E /* menuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F787202BF7DDD200513D3E /* menuUITests.swift */; };
 		D1F787232BF7DDD200513D3E /* menuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F787222BF7DDD200513D3E /* menuUITestsLaunchTests.swift */; };
+		D1F787302BF8B8BA00513D3E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F7872F2BF8B8BA00513D3E /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		D1F787022BF7DDD100513D3E /* menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F787052BF7DDD100513D3E /* menuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuApp.swift; sourceTree = "<group>"; };
-		D1F787072BF7DDD100513D3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1F787072BF7DDD100513D3E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		D1F787092BF7DDD200513D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1F7870C2BF7DDD200513D3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1F787122BF7DDD200513D3E /* menuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = menuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		D1F7871C2BF7DDD200513D3E /* menuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = menuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F787202BF7DDD200513D3E /* menuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuUITests.swift; sourceTree = "<group>"; };
 		D1F787222BF7DDD200513D3E /* menuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D1F7872F2BF8B8BA00513D3E /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				D1F787052BF7DDD100513D3E /* menuApp.swift */,
-				D1F787072BF7DDD100513D3E /* ContentView.swift */,
+				D1F787072BF7DDD100513D3E /* MenuView.swift */,
+				D1F7872F2BF8B8BA00513D3E /* MenuItem.swift */,
 				D1F787092BF7DDD200513D3E /* Assets.xcassets */,
 				D1F7870B2BF7DDD200513D3E /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1F787082BF7DDD100513D3E /* ContentView.swift in Sources */,
+				D1F787302BF8B8BA00513D3E /* MenuItem.swift in Sources */,
+				D1F787082BF7DDD100513D3E /* MenuView.swift in Sources */,
 				D1F787062BF7DDD100513D3E /* menuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
